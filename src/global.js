@@ -1,0 +1,1 @@
+global.API = "https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=808c2e9753ca4cc3bcb92c02e31de057"
