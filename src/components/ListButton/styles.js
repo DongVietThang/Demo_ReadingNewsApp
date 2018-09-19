@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'white',
         borderRadius: 10,
-        backgroundColor: 'red',
+        backgroundColor: '#ff6347',
     },
     textButton: {
         fontSize: 15,

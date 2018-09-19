@@ -28,8 +28,6 @@ export default class ListNews extends Component {
                     data = { this.state.news }
                     renderItem = { this._renderItem }
                     ItemSeparatorComponent = { Separator }
-                    refreshing = { this.state.refreshing }
-                    onRefresh = { this.handleRefresh } 
                 >
                 </FlatList>
             </View>

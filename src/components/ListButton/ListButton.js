@@ -16,6 +16,7 @@ class Button extends React.Component {
             <TouchableHighlight 
                 onPress = { this._onPress }
                 style = { styles.button }
+                underlayColor = "#c0c0c0"
             >
                 <Text style = { styles.textButton }> { this.props.name } </Text>
             </TouchableHighlight>
@@ -35,6 +36,7 @@ export default class ListButton extends React.Component {
                     renderItem = { this._onPress }
                     horizontal = { true }
                     showsHorizontalScrollIndicator={ false }
+                    keyExtractor = { (item, index) => item.name }
                 >
                 </FlatList>
             </View>
